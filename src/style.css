@@ -1,4 +1,9 @@
-body{
+body {
+  background-color: #365946;
+}
+
+footer {
   margin: 0 auto;
+  padding-top: 1%;
   text-align: center;
 }
