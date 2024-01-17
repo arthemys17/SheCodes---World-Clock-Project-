@@ -1,4 +1,4 @@
-function timeUpdade(){
+function timeUpdate(){
 //Lisbon
 let lisbonElement = document.querySelector("#lisbon");
 let lisbonDateElement = lisbonElement.querySelector(".date");
@@ -18,5 +18,5 @@ zurichDateElement.innerHTML = zurichTime.format("MMMM Do YYYY");
 zurichTimeElement.innerHTML = zurichTime.format("hh:mm:ss [<small>]A[</small>]");
 };
 
-timeUpdade();
-setInterval(timeUpdade, 1000);
+timeUpdate();
+setInterval(timeUpdate, 1000);
