@@ -83,3 +83,7 @@ footer a, footer a:visited{
   vertical-align: middle;
   padding-left:3%;
 }
+
+.refresh-link{
+  color:#202E40;
+}
